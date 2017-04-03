@@ -1,0 +1,14 @@
+body{
+	background-color: orange;
+}
+h3{
+	border: 1px solid powderblue;
+	padding: 20px;
+	margin: 20px;
+}
+a:visited {
+	color: red;background-color: black;
+}
+p{
+	color: grey;
+}
