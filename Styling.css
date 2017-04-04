@@ -2,12 +2,35 @@ body{
 	background-color: rgb(35,36,38);
 	color: white;
 }
+ul{
+	background-color: black;
+	list-style-type: none;
+	overflow: hidden;
+}
+li{
+	float: left;
+}
+li a:link {
+	margin: 10px;
+	display: block;
+	color: white;
+	text-decoration: none; 
+	padding: 16px;
+	font-size: 20px;
+}
+li a:visited{
+	color: white;
+}
+li a:hover {
+	background-color: rgb(35,36,38);
+}
 h1{
 	font-style: courier;
 		color: rgb(40,231,231);
 		font-size: 150px;
 		text-align: 20px;
 	}
+
 pre{
 	color: powderblue;
 	text-align: center;
@@ -16,12 +39,18 @@ pre{
 h2{
 	font-size: 50px;
 	color: rgb(0,300,300);
+
 }
+table, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+	padding: 10px;
+	
+}
+
+
 /*h3{
 	border: px solid powderblue;
 	padding: 20px;
 	margin: 20px;
 }*/
-a:link {
-	color: pink;
-}
