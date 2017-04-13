@@ -33,6 +33,7 @@ li.logo {
 }
 li.textlist {
 	margin-top: 50px;
+
 }
 div.secondscreen{
 	background-image: url("background1/bwggate.jpg");
@@ -62,5 +63,5 @@ span.secscreen{
 span.secscreen:hover {
 	text-decoration: underline;
 	color: black;
-	font-size: 50px
+	font-size: 50px;
 }
