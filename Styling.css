@@ -1,28 +1,29 @@
-body{
-	background-color: black;
-	color: white;
+div.lowest {
+	background-image: url("background1/bwroad.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 960px;
+}
+div.headerlist {
+	position: fixed;
 }
 ul{
-	background-color: black;
-	list-style-type: none;
-	overflow: hidden;
+	list-style: none;
+ 	position: relative; 
+ 	 
+ 	left: 50%; 
 }
-li{
+li {
 	float: left;
-}
-li a:link {
 	margin: 10px;
-	display: block;
-	color: white;
-	text-decoration: none; 
-	padding: 16px;
-	font-size: 20px;
+	margin-top: 0;
 }
-li a:visited{
-	color: white;
+li.logo {
+	margin-left: 50px;
+	margin-right: 50px;
 }
-li a:hover {
-	background-color: rgb(35,36,38);
+li.textlist {
+	margin-top: 50px;
 }
 h1{
 	font-style: courier;
