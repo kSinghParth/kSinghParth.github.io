@@ -65,3 +65,10 @@ span.secscreen:hover {
 	color: black;
 	font-size: 50px;
 }
+
+footer.secscreen {
+	position: absolute;
+	right: 80px;
+	margin-top: 450px;
+	font-size: 50px;
+}
