@@ -1,4 +1,7 @@
 
+body{
+	overflow-x: hidden; 
+}
 #bwseapath{
 	position: relative;
 	width: 100%;
@@ -19,7 +22,7 @@
 #navbari {
 	color: white;
 }
-#navigationmenu{
+.navigationmenu{
 	position: absolute;
 	top: 0;
 	right: 0;
