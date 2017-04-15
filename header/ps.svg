@@ -10,12 +10,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   height="220mm"
+   viewBox="0 0 210 220"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r"
-   sodipodi:docname="parthwrittenlogo.svg"
+   sodipodi:docname="ps.svg"
    inkscape:export-filename="/Users/parthsingh/bitmap.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -28,13 +28,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-129.45965"
-     inkscape:cy="907.74902"
+     inkscape:zoom="0.36187834"
+     inkscape:cx="455.86936"
+     inkscape:cy="806.96403"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showborder="false"
+     showborder="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1436"
@@ -50,35 +50,36 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-77)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:159.48873901px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83067042"
-       x="-68.674683"
-       y="98.634903"
+       x="88.025238"
+       y="188.13223"
        id="text4495"
        transform="matrix(0.91528952,0.0370307,-0.47158313,1.0734712,0,0)"
        inkscape:transform-center-x="154.26734"
        inkscape:transform-center-y="-18.986766"><tspan
          sodipodi:role="line"
          id="tspan4493"
-         x="-68.674683"
-         y="98.634903"
+         x="88.025238"
+         y="188.13223"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:159.48873901px;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';stroke-width:0.83067042">P</tspan></text>
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4501"
        width="5.2916675"
        height="221.49403"
-       x="20.343515"
-       y="-22.453577"
+       x="155.83206"
+       y="25.159468"
        transform="rotate(25.822142)" />
     <text
        xml:space="preserve"
@@ -89,43 +90,65 @@
          sodipodi:role="line"
          id="tspan4503"
          x="-6.8035717"
-         y="73.238091"
+         y="95.00753"
          style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.92170715px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.86938393"
-       x="17.984295"
-       y="198.30418"
+       x="154.58212"
+       y="284.28348"
        id="text4509"
        transform="matrix(0.99031243,0.14730056,-0.39607212,0.95086997,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4507"
-         x="17.984295"
-         y="198.30418"
+         x="154.58212"
+         y="284.28348"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.92170715px;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';stroke-width:0.86938393">S</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.08715057px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48007447"
-       x="27.231833"
-       y="74.059555"
+       x="166.03735"
+       y="178.00829"
        id="text4513"
-       transform="matrix(1.0099253,-0.01049643,-0.37482878,0.99406792,0,0)"><tspan
+       transform="matrix(1.0099253,-0.01049643,-0.37482878,0.99406794,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4511"
-         x="27.231833"
-         y="74.059555"
+         x="166.03735"
+         y="178.00829"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';stroke-width:0.48007447">arth</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.73408127px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46597999"
-       x="70.776199"
-       y="152.33084"
+       x="200.67241"
+       y="257.14371"
        id="text4517"
        transform="matrix(1.0278999,-9.4144379e-4,-0.30817753,0.97313964,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4515"
-         x="70.776199"
-         y="152.33084"
+         x="200.67241"
+         y="257.14371"
          style="stroke-width:0.46597999">ingh</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.577248"
+       y="83.71891"
+       id="text5083"><tspan
+         sodipodi:role="line"
+         id="tspan5081"
+         x="78.577248"
+         y="108.73791"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1.25;font-family:'Songti TC';-inkscape-font-specification:'Songti TC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="138.17834"
+       y="79.175331"
+       id="text5087"><tspan
+         sodipodi:role="line"
+         id="tspan5085"
+         x="138.17834"
+         y="104.19433"
+         style="stroke-width:0.26458332" /></text>
   </g>
 </svg>
