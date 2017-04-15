@@ -72,3 +72,14 @@ footer.secscreen {
 	margin-top: 450px;
 	font-size: 50px;
 }
+div.third {
+	background-color: black;
+	padding: 40px;
+	width: 100%;
+}
+div.insidethird {
+
+ 	margin: 20px;
+ 	position: relative; 
+ 	display: block; 
+	}
