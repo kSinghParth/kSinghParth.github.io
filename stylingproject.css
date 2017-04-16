@@ -149,19 +149,19 @@ a{
 
 
 
-
-
-
-
-
-#maint{
-	font-family: 'Philosopher', cursive;
-	font-size: 50px;
+#n123n{
+	font-family: 'philosopher';
+	font-size: 60px;
 }
 
 
-
-
+ul{
+	list-style-type: none;
+}
+li a{
+	font-family: 'Courgette';
+	font-size: 50px;
+}
 
 
 

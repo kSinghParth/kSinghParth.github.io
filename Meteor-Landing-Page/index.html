@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="//d3js.org/queue.v1.min.js"></script>
+    <style>
+        .graticule {
+            fill: none;
+            stroke: #777;
+            stroke-width: 0.5px;
+            stroke-opacity: 0.5;
+        }
+
+        .land {
+            fill: #222;
+        }
+
+        .boundary {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 0.5px;
+        }
+        body{
+            background:black;
+            text-align: center !important;
+            margin: auto !important;
+        }
+        div{
+            color:white;
+        }
+        svg{
+            display: block;
+            margin :auto;
+        }
+    </style>
+</head>
+<body>
+    <div>This is a map plotting recorded meteor landing data from NASA.</div>
+</body>
+<script>
+    var width = 960,
+        height = 960;
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+
+    var projection = d3.geoMercator()
+        .scale((width - 3) / (2 * Math.PI))
+        .translate([width / 2, height / 2]);
+
+
+    var path = d3.geoPath()
+        .projection(projection);
+
+    var graticule = d3.geoGraticule();
+
+    svg.append("defs").append("path")
+        .datum({type: "Sphere"})
+        .attr("id", "sphere")
+        .attr("d", path);
+
+    svg.append("use")
+        .attr("class", "stroke")
+        .attr("xlink:href", "#sphere");
+
+    svg.append("use")
+        .attr("class", "fill")
+        .attr("xlink:href", "#sphere");
+
+    svg.append("path")
+        .datum(graticule)
+        .attr("class", "graticule")
+        .attr("d", path);
+
+    queue()
+        .defer(d3.json, 'world.json')
+        .defer(d3.json, 'https://data.nasa.gov/resource/y77d-th95.json')
+        .await(makeMyMap);
+
+    function makeMyMap(error, world,tsconfig) {
+        if (error) throw error;
+
+        svg.insert("path", ".graticule")
+            .datum(topojson.feature(world, world.objects.land))
+            .attr("class", "land")
+            .attr("d", path);
+
+        svg.insert("path", ".graticule")
+            .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+            .attr("class", "boundary")
+            .attr("d", path);
+
+        svg.selectAll(".pin")
+            .data(tsconfig)
+            .enter().append("circle", ".pin")
+            .attr("r", 2)
+            .style("stroke","red")
+            .style("stroke-width",1)
+            .style("fill", "none")
+            .attr("transform", function(d) {
+                return "translate(" + projection([
+                        d.reclong,
+                        d.reclat
+                    ]) + ")";
+            })
+    };
+
+    // d3.json(
+    //     "tsconfig.json",
+    //     function(tsconfig){
+    //         d3.select("body")
+    //             .append("ul")
+    //             .selectAll("li")
+    //             .data(tsconfig)
+    //             .enter()
+    //             .append("li")
+    //             .text(
+    //                 function(d){
+    //                     var msg = d.name;
+    //                     return msg;
+    //                 }
+    //             );
+    //     }
+    // );
+</script>
+</html>
