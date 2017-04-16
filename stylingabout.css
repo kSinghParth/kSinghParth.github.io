@@ -1,11 +1,14 @@
-
-/*#bwseapath{
-	position: relative;
-	width: 100%;
-}*/
 body{
 	background-color: black;
 }
+.header{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 15vw;
+	color: yellow;
+}
+
 .lowest{
 	width: 100%;
 	height: 961px;
@@ -24,7 +27,7 @@ body{
 	font-size: 150%;
 }
 #navbari {
-	color: white;
+	color: rgb(85,85,85);
 }
 .navigationmenu{
 	position: absolute;
@@ -91,7 +94,6 @@ a{
 	height: 30px;
 	font-size: 0;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -143,54 +145,3 @@ a{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-div.secondscreen{
-	background-image: url("background1/bwggate.jpg");
-	width: 100%;
-	height: 940px;
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
-header.secscreen {
-	position: relative;
-	font-size: 70px;
-	margin-left: 70px;
-	top: 40px;
-	
-}
-article {	
-	color: rgb(100,100,100);
-	font-size: 35px;
-	margin-left: 70px;
-
-}
-span.secscreen{
-	text-decoration: none;
-	color: rgb(100,100,100);
-}
-span.secscreen:hover {
-	text-decoration: underline;
-	color: black;
-	font-size: 142%;
-}
-
-footer.secscreen {
-	font-size: 43px;
-	margin-left:240px;
-}
-div.third {
-	background-color: black;
-	
-}
-div.insidethird {
-	width: 310px;
-	margin: auto;
-	margin-top: 30px;
- 	margin: 20px;
- 	position: relative; 
- 	display: block; 
- 	padding-top: 30px;
- 	padding-bottom: 30px;
- 	padding-left: 7px;
-	}
