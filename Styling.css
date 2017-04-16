@@ -133,7 +133,7 @@ body {
 
 #main {
     transition: margin-left .5s;
-    color: white;
+    color: rgb(150,150,150);
     padding: 16px;
     padding-top: 5px;
     background-color: transparent;
