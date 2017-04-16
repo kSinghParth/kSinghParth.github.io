@@ -150,19 +150,30 @@ a{
 
 
 
+.content-head {
+	text-align: center;
+}
 
-
-#maint{
-	font-family: 'Philosopher', cursive;
-	font-size: 50px;
+.content-head h2{
+	font-family: 'Shadow Into Light';
+	font-size: 70px;
 }
 
 
+#b123b{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#b123b img{
+	max-width: 100%;
+	margin: auto;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 
-
-
-
-
+#b123b img:hover {
+	filter: none;
+}
 div.third {
 	background-color: black;
 	
