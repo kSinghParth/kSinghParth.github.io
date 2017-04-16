@@ -1,11 +1,14 @@
-
-/*#bwseapath{
-	position: relative;
-	width: 100%;
-}*/
 body{
 	background-color: black;
 }
+.header{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 15vh;
+	color: blue;
+}
+
 .lowest{
 	width: 100%;
 	height: 961px;
@@ -24,7 +27,7 @@ body{
 	font-size: 150%;
 }
 #navbari {
-	color: white;
+	color: rgb(85,85,85);
 }
 .navigationmenu{
 	position: absolute;
@@ -91,7 +94,6 @@ a{
 	height: 30px;
 	font-size: 0;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
