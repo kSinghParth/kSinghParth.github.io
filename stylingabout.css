@@ -145,3 +145,85 @@ a{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+#imgcon{
+	
+	margin-left: 30px;
+	margin-right: 30px;
+	position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+	
+}
+#img {
+	max-width: 100%;
+	margin: auto;
+	border: 1px solid purple;
+	border-style: inset;
+	}
+#imgcon::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 7px;
+    background: grey;
+}
+
+/* Make the image fit the box */
+#boxshadow p {
+    width: 100%;
+    font-family: 'Playair Display', cursive;
+    font-size: 28px;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+
+div.third {
+	background-color: black;
+	
+}
+div.insidethird {
+	width: 310px;
+	margin: auto;
+	margin-top: 30px;
+ 	margin: 20px;
+ 	position: relative; 
+ 	display: block; 
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	padding-left: 7px;
+	}
