@@ -5,17 +5,18 @@ body{
 	font-family: 'Pacifico', cursive;
 	text-align: center;
 	padding-top: 200px;
-	font-size: 15vh;
+	font-size: 12vw;
 	color: blue;
 }
 
 .lowest{
 	width: 100%;
 	height: 961px;
+	background: no-repeat;
 }
 .page-header{
 	position: absolute;
-	top: 0;
+	top: 0
 }
 #navigationbar {
 	top: 80px;
