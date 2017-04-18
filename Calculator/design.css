@@ -1,0 +1,22 @@
+table{
+	background:white;
+	border-color:white;
+
+}
+td{
+	width:140px;
+
+}
+body{
+	color:white;
+	background:rgb(224,255,255);
+}
+.heading{
+	color:rgb(0,128,128);
+	font-size:100px;
+}
+.valuecol{
+	background:rgb(224,255,255);
+	color:black;
+	border:none;
+}
