@@ -1,19 +1,23 @@
+#navbar{
+	text-align: center;
+	font-size: 30px;
+}
 table{
 	background:white;
 	border-color:white;
 
 }
-td{
+/*td{
 	width:140px;
 
-}
+}*/
 body{
 	color:white;
 	background:rgb(224,255,255);
 }
-.heading{
+.page-header{
 	color:rgb(0,128,128);
-	font-size:100px;
+	font-size: 8vw;
 }
 .valuecol{
 	background:rgb(224,255,255);
