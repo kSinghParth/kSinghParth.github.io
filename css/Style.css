@@ -201,14 +201,12 @@ nav ul li a:hover{
   transition: 0.5s;
 }
 .comp{
+  padding: 0;
   text-align: center;
   height: 1200px;
 }
-code{
-	font-size: 100%;
-	margin: auto;
-}
 #comp0{
+  padding: 90px 0;
 }
 #comp0 img{
 	width: 60%;
@@ -219,12 +217,14 @@ code{
   z-index: 3;
 }
 #comp1 img{
+
 }
 #comp2{
   position: relative;
   top: -330px;
 }
 #comp2 img{
+
 }
 header.secscreen {
 	position: relative;
@@ -323,8 +323,17 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
   transition: 0.5s;
 }
 
-
+@media screen and (max-width: 1070px){
+  .comp{
+    height: 50%;
+  }
+  #comp1 img,
+  #comp2 img{
+    display: none;
+  }
+}
 @media screen and (max-width: 1200px){
+
 #About{
   height: 1800px;
 }
@@ -334,6 +343,7 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
   }
 }
 @media  screen and (max-width: 984px) {
+
   #About{
   height: 300vw;
 }
@@ -346,8 +356,7 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
    }
 }
 @media screen and (max-width: 768px){
-  #About{
-  }
+  
   #myimage{
     max-width: 100%;
   }
@@ -368,6 +377,13 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
   }
 }
 @media screen and (max-width: 660px){
+  #header h1{
+    font-size: 5em;
+    margin-top: 190px;
+  }
+  #header{
+    height: 600px;
+  }
   #About{
   height: 100%;
   }
@@ -377,10 +393,17 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
     width: 80%;
     padding: 2em;
   }
+  nav ul li a{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
   .imgcon{
     margin: auto;
     float: none;
    width: 80%;
+   }
+   .imgdis{
+    display: none;
    }
 }
 
