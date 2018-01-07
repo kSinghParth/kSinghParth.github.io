@@ -206,9 +206,10 @@ nav ul li a:hover{
   height: 1200px;
 }
 #comp0{
-  padding: 90px 0;
 }
 #comp0 img{
+  
+  margin: 90px 0;
 	width: 60%;
 }
 #comp1{

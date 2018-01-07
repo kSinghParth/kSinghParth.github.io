@@ -1,30 +1,56 @@
-$(function () {
+// if ($(window).width()>=500) {
+	$(function () {
 
 	$("body").paroller();
 	$("#comp2").paroller({ factor: '1.0', type: 'foreground', direction: 'horizontal' });
 	$(".codesnip").paroller({ factor: '0.1', type: 'foreground', direction: 'horizontal' });
   	$("#logo").paroller({ factor: '-0.2', type: 'foreground' });
   	$(".bkgmove").paroller({factor:'0.3',type:'foreground',direction:'vertical'});
-	$("#comp0 img").paroller({ factor: '-0.7', type: 'foreground', direction: 'horizontal' });
+	$("#comp0 img").paroller({ factor: '0.5', type: 'foreground', direction: 'horizontal' });
 	$("h1").paroller({ factor: '0.5', type: 'foreground'});
 	$("header.secscreen").paroller({ factor: '-1.7', type: 'foreground', direction: 'horizontal' });
 	$("footer.secscreen").paroller({ factor: '-0.3', type: 'foreground', direction: 'horizontal' });
 	$(".block:odd").paroller({ factor: '0.2', type: 'foreground', direction: 'horizontal' });
 	$(".block:even").paroller({ factor: '-0.2', type: 'foreground', direction: 'horizontal' });
 	$("#Work").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+	$("#About").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
 });
+// }
+// $(window).resize(function() {
+// 	console.log($(this).width());
+//     if( $(this).width() >=500 ) {
+// $("body").paroller();
+// 	$("#comp2").paroller({ factor: '1.0', type: 'foreground', direction: 'horizontal' });
+// 	$(".codesnip").paroller({ factor: '0.1', type: 'foreground', direction: 'horizontal' });
+//   	$("#logo").paroller({ factor: '-0.2', type: 'foreground' });
+//   	$(".bkgmove").paroller({factor:'0.3',type:'foreground',direction:'vertical'});
+// 	$("#comp0 img").paroller({ factor: '0.5', type: 'foreground', direction: 'horizontal' });
+// 	$("h1").paroller({ factor: '0.5', type: 'foreground'});
+// 	$("header.secscreen").paroller({ factor: '-1.7', type: 'foreground', direction: 'horizontal' });
+// 	$("footer.secscreen").paroller({ factor: '-0.3', type: 'foreground', direction: 'horizontal' });
+// 	$(".block:odd").paroller({ factor: '0.2', type: 'foreground', direction: 'horizontal' });
+// 	$(".block:even").paroller({ factor: '-0.2', type: 'foreground', direction: 'horizontal' });
+// 	$("#Work").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// 	$("#About").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
 
+//     	}
+//     });
+// $(window).resize(function() {
+//     if( $(this).width() <500 ) {
+//         $(function () {
 
-function openNav() {
-				    document.getElementById("mySidenav").style.width =
-				     "100%";
-				    document.getElementById("main").style.marginLeft = 
-				    "250px";
-				    
-				}
-
-				function closeNav() {
-				    document.getElementById("mySidenav").style.width = "0";
-				    document.getElementById("main").style.marginLeft= "0";
-				    
-				}
+// 	$(".codesnip").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+//   	$("#logo").paroller({ factor: '-0.2', type: 'foreground' });
+//   	$(".bkgmove").paroller({factor:'0.3',type:'foreground',direction:'vertical'});
+// 	$("#comp0 img").paroller({ factor: '0.5', type: 'foreground', direction: 'horizontal' });
+// 	$("h1").paroller({ factor: '0.5', type: 'foreground'});
+// 	$("header.secscreen").paroller({ factor: '-1.7', type: 'foreground', direction: 'horizontal' });
+// 	$("footer.secscreen").paroller({ factor: '-0.3', type: 'foreground', direction: 'horizontal' });
+// 	$(".block:odd").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// 	$(".block:even").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// 	$("#Work").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// 	$("#Work").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// 	$("#About").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
+// });
+//     }
+// });
