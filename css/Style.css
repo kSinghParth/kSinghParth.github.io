@@ -506,11 +506,16 @@ padding: 1.5em;
 	text-align: center;
   font-size: 3rem;
   font-weight: 200;
-  margin-bottom: 20px;
+  margin-top:80px;
+  margin-bottom: 80px;
 }
 .container-fluid .row {
 	text-align: left;
-  padding: 0 0 4em 0;
+  padding: 100px 0 4em 0;
+  background: #f7f7f7;
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+
 }
 .container-fluid .row:nth-child(even) {
   background: #F1F4F5;
