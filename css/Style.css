@@ -11,37 +11,37 @@ body{
 .bkg{
 position: absolute;
 z-index: -1;
-width: 100%;
+width: 1440px;
 }
 .bkgmove{
   height: 900px;
 }
 .bkg1{
-background-color: rgb(230,50,50);
+background-color: rgb(238,30,60);
 }
 .bkg2{
 background-color: orange;
 }
 .bkg3{
-  background-color: yellow;
+  background-color: rgb(255,227,0);
 }
 .bkg4{
-  background-color: green;
+  background-color: #3ee9d1;
 }
 .bkg5{
-  background-color: blue;
+  background-color:  #46b8e9;
 }
 .bkg6{
-  background-color: indigo;
+  background-color: rgb(129,40,171);
 }
 .bkg7{
-  background-color: blue;
+  background-color:  #4d92eb;
 }
 .bkg8{
   background-color: pink;
 }
 .bkg9{
-  background-color: magenta;
+  background-color: rgb(200,93,136);
 }
 .bkg10{
   background-color: grey;
@@ -188,8 +188,23 @@ padding: 1.5em;
   width: 33.333%;
   text-align: center;
   float: left;
+  transition: 0.6s;
   /*margin-left: 2%;
   margin-right: 2%;*/
+}
+#About p:hover{
+-ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+    -webkit-box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+-moz-box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+    z-index:9999;
+    border-right:1px solid transparent;
+    border-bottom:1px solid transparent;
+    cursor:pointer;
+    background-color:#fff;
+    transition: 0.6s;
 }
 #About p span{
   font-size: 1.5em;
@@ -202,12 +217,24 @@ padding: 1.5em;
 }
 .myimage{
   width: 100%;
-  filter: blur(100%);
-  transition: 2s;
+  filter: brightness(50%);
+  transition: 1s;
+  z-index: 0.5;
 }
 .myimage:hover{
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+    -webkit-box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+-moz-box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
+    z-index:9999;
+    border-right:1px solid transparent;
+    border-bottom:1px solid transparent;
+    cursor:pointer;
+    background-color:#fff;
   filter: none;
-  transition: 1s;
+  transition: 0.5s;
 }
 @media screen and (max-width: 800px){
 	#myimage{

@@ -13,3 +13,5 @@ $(function () {
 	$(".block:even").paroller({ factor: '-0.2', type: 'foreground', direction: 'horizontal' });
 	$("#Work").paroller({ factor: '0', type: 'foreground', direction: 'horizontal' });
 });
+
+
