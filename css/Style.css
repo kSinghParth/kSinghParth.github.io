@@ -208,7 +208,7 @@ nav ul li a:hover{
 #comp0{
 }
 #comp0 img{
-  
+
   margin: 90px 0;
 	width: 60%;
 }
@@ -591,27 +591,36 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
 }
 #timeline .demo-card .head h2 {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: inherit;
   letter-spacing: 2px;
   margin: 0;
-  padding-bottom: 6px;
-  line-height: 1rem;
+  padding-bottom: 3px;
+  line-height: 1.3rem;
 }
 @media (min-width: 480px) {
+
   #timeline .demo-card .head h2 {
     font-size: 165%;
     line-height: 1.2rem;
   }
 }
+@media screen and (max-width: 700px) and (min-width: 480px){
+  #timeline .demo-card .head h2 {
+    line-height: 1.5rem;
+    font-size: 120%;
+  }
+}
 #timeline .demo-card .head h2 span {
+  position: relative;
+  top: -20px;
   display: block;
-  font-size: 0.6rem;
+  font-size: 1.3rem;
   margin: 0;
 }
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 span {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
 }
 #timeline .demo-card .body {
@@ -647,16 +656,16 @@ box-shadow: 10px 10px 91px 0px rgba(100,100,100,1);
   border-color: #3ee9d1;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: rgb(240,100,244);
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: rgb(210,100,234);
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: rgb(255,116,82);
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: rgb(255,116,82);
 }
 #timeline .demo-card--step5 {
   background-color: #46b8e9;
