@@ -436,6 +436,26 @@
 	<script src="dist/jquery.js"></script>
 	<script src="dist/jquery.paroller.js"></script>
 	<script src="JS/dist.js"></script>
+	<script>
+		function httpGet(theUrl)
+{
+    if (window.XMLHttpRequest)
+        xmlhttp=new XMLHttpRequest();
+    else {
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            return xmlhttp.responseText;
+        }
+    }
+    xmlhttp.open("GET", theUrl, false );
+    xmlhttp.send(null);    
+}
+  console.log(httpGet("http://ksinghparth.com"));
+	</script>
 
 </body>
 </html>
