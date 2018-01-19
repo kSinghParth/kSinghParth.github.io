@@ -437,24 +437,26 @@
 	<script src="dist/jquery.paroller.js"></script>
 	<script src="JS/dist.js"></script>
 	<script>
-		function httpGet(theUrl)
-{
-    if (window.XMLHttpRequest)
-        xmlhttp=new XMLHttpRequest();
-    else {
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function()
-    {
-        if (xmlhttp.readyState==4 && xmlhttp.status==200)
-        {
-            return xmlhttp.responseText;
-        }
-    }
-    xmlhttp.open("GET", theUrl, false );
-    xmlhttp.send(null);    
-}
-  document.write(httpGet("https://cloud.google.com/translate/docs/quickstart?csw=1"));
+// 		function httpGet(theUrl)
+// {
+//     if (window.XMLHttpRequest)
+//         xmlhttp=new XMLHttpRequest();
+//     else {
+//         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+//     }
+//     xmlhttp.onreadystatechange=function()
+//     {
+//         if (xmlhttp.readyState==4 && xmlhttp.status==200)
+//         {
+//             return xmlhttp.responseText;
+//         }
+//     }
+//     xmlhttp.open("GET", theUrl, false );
+//     xmlhttp.send(null);    
+// }
+//   document.write(httpGet("https://cloud.google.com/translate/docs/quickstart?csw=1"));
+// 	
+		$.get("www.google.com", function(response) { console.log(response) });
 	</script>
 
 </body>
