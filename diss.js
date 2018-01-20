@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
         myOBJ = JSON.parse(this.responseText);
     }
 };
-xmlhttp.open("GET", "data.json",false);
+xmlhttp.open("GET", "main.php",false);
 xmlhttp.send();
 // console.log(cht);
 
@@ -26,7 +26,7 @@ var i=0;
 var ch=myOBJ2.indexOf("<p>");
 var ch2=myOBJ2.indexOf("</p>");
 while(ch>=0){
-	var cht=myOBJ[i].name;
+	var cht=myOBJ[i].p;
 myOBJ2=myOBJ2.substring(0,ch+3)+cht+myOBJ2.substring(ch2);
 var ch=myOBJ2.indexOf("<p>",ch2);
 var ch2=myOBJ2.indexOf("</p>",ch);
