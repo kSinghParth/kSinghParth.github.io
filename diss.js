@@ -8,6 +8,7 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open("GET", "main.php",false);
 xmlhttp.send();
+console.log(myOBJ);
 // console.log(cht);
 
 
@@ -20,16 +21,16 @@ xmlhttp.send();
 // htmlpage.open("GET", "pagehtml.php", true);
 // htmlpage.send();
 
-var myOBJ2="<p>sasf</p>. <p>sasf</p>";
+// var myOBJ2="<p>sasf</p>. <p>sasf</p>";
 
-var i=0;
-var ch=myOBJ2.indexOf("<p>");
-var ch2=myOBJ2.indexOf("</p>");
-while(ch>=0){
-	var cht=myOBJ[i].p;
-myOBJ2=myOBJ2.substring(0,ch+3)+cht+myOBJ2.substring(ch2);
-var ch=myOBJ2.indexOf("<p>",ch2);
-var ch2=myOBJ2.indexOf("</p>",ch);
-i++;
-    }
-    console.log(myOBJ2);
+// var i=0;
+// var ch=myOBJ2.indexOf("<p>");
+// var ch2=myOBJ2.indexOf("</p>");
+// while(ch>=0){
+// 	var cht=myOBJ[i].p;
+// myOBJ2=myOBJ2.substring(0,ch+3)+cht+myOBJ2.substring(ch2);
+// var ch=myOBJ2.indexOf("<p>",ch2);
+// var ch2=myOBJ2.indexOf("</p>",ch);
+// i++;
+//     }
+//     console.log(myOBJ2);
