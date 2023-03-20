@@ -160,7 +160,7 @@ h1::after {
 img{
   border-radius: 12px;
   width: 100%;
-  filter: grayscale(100%);
+/*  filter: grayscale(100%);*/
 }
 
 .products {
