@@ -34,6 +34,7 @@ $(document).ready(function() {
 
   $('#next').on('click', function(e) {
     e.preventDefault();
+    console.log("herererer")
 
     var nextItem = productCurrentItem.next();
 
